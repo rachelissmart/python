@@ -1,0 +1,12 @@
+import ex18 as ex
+name=raw_input("please input the dog's name(Rover or Dick): ")
+animal=ex.organism()
+animal.ppt1()
+vertebrate=ex.animal()
+vertebrate.ppt2()
+mammal=ex.vertebrate()
+mammal.ppt3()
+dog=ex.mammal()
+dog.ppt4()
+name=ex.dog()
+name.ppt5()
