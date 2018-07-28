@@ -1,6 +1,9 @@
+#ex7.py
 import numpy as np
 from sys import argv
-r=argv
-c=2*np.pi*r
-print "Earth's circumference:%f m"%c
- 
+script,r=argv
+c=2*np.pi*float(r)*1000
+print "Earth's circumference:%f m." %c
+
+
+
